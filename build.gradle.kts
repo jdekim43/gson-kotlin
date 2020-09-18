@@ -9,7 +9,7 @@ plugins {
 
 val artifactName = "gson-kotlin"
 val artifactGroup = "kr.jadekim"
-val artifactVersion = "0.0.2"
+val artifactVersion = "0.0.5"
 group = artifactGroup
 version = artifactVersion
 
@@ -20,6 +20,8 @@ repositories {
 
 dependencies {
     val gsonVersion: String by project
+
+    compileOnly(kotlin("reflect"))
 
     api("com.google.code.gson:gson:$gsonVersion")
 }
