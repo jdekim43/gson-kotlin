@@ -9,7 +9,7 @@ plugins {
 
 val artifactName = "gson-kotlin"
 val artifactGroup = "kr.jadekim"
-val artifactVersion = "0.0.5"
+val artifactVersion = "0.0.8"
 group = artifactGroup
 version = artifactVersion
 
